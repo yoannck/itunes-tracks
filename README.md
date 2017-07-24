@@ -14,15 +14,18 @@ itunes.list(function(results) {
 })
 ```
 
-#Create the share xml itunes
+#Create the share xml itunes automatically
 
-required :
-- Settings Mac / Security & Privacy / Accessibility / enable Checkbox Terminal.
+permisson required: Settings Mac / Security & Privacy / Accessibility / enable Checkbox Terminal.
 
 ```javascript
 // Force the creation of the xml itunes
 itunes.config();
 ```
+
+#Create the share xml itunes by yourself
+
+Go to the iTunes preferences / 'Advanced' Tab / enable the checkbox 'Share iTunes Library XML with other applications'
 
 ## Install
 
