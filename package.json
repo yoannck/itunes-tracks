@@ -1,0 +1,25 @@
+{
+  "name": "itunes-tracks",
+  "version": "0.1.0",
+  "description": "Get list of tracks objects from local iTunes library. (only macosx)",
+  "author": "Yoann Chane Kive <yoannck@gmail.com> (http://yoannck.com)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/yoannck/itunes-tracks.git"
+  },
+  "keywords": [
+    "itunes",
+    "explorer",
+    "browser"
+    "track"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "applescript": "~0.2.1",
+    "itunes-data": "^0.1.3"
+  }
+}
