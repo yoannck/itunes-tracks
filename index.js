@@ -34,7 +34,7 @@ module.exports = {
      applescript.execFile(__dirname + "/itunes-config.applescript", [], function (err, raw) {
    	   if (err) { console.error(err); return; }
    	 });
-   }
+   },
 
    /**
     * List tracks with applescript
@@ -59,7 +59,7 @@ module.exports = {
         })
         callback(results);
       });
-   }
+   },
 
    /**
     * List tracks with the sharing xml itunes from the default location
@@ -77,7 +77,7 @@ module.exports = {
        callback(results);
      });
      stream.pipe(parser);
-   }
+   },
 
    /**
     * List tracks with detection
