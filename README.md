@@ -23,4 +23,4 @@ itunes.config();
 
 ## Install
 
-Run `npm install git://github.com/yoannck/itunes-tracks.git`
+Run `npm install --save itunes-tracks`
