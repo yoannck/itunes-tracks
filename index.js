@@ -86,9 +86,9 @@ module.exports = {
     */
    list: function(callback) {
      if (fs.existsSync(location)) {
-       listxml(callback);
+       this.listxml(callback);
      } else {
-       listapp(callback);
+       this.listapp(callback);
      }
    }
 };
