@@ -16,6 +16,9 @@ itunes.list(function(results) {
 
 #Create the share xml itunes
 
+required :
+- Settings Mac / Security & Privacy / Accessibility / enable Checkbox Terminal.
+
 ```javascript
 // Force the creation of the xml itunes
 itunes.config();
